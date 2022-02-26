@@ -1,0 +1,117 @@
+/*GLOBAL*/
+body{
+    background-image: url("img/GAMER-WALLPAPER-HD.png");
+}
+
+.back{
+    color: rgba(255, 0, 234, 0.822);
+    font-size: 16pt;
+    font-family: Papyrus;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.inicio > img{
+    width: 100%;
+    height: 90px;
+}
+
+.todasimagens{
+    margin-left: 55pt;
+    padding: 0;
+}
+
+/*Logo*/
+.logo{
+    position: relative;
+}
+
+.logo>img{
+    width: 237px;
+    height: 143px;
+    display: flex;
+    float: right;
+}
+
+/*MENU*/
+
+.menu > ul{
+    display: flex;
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    background-color: rgba(255, 0, 234, 0.822);
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.menu > ul > li{
+    margin: 8px;
+}
+
+.menu > ul > li > a{
+    text-decoration: none;
+    color: rgba(255, 0, 234, 0.822);
+}
+
+li a {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 1px 24px;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+}
+
+li a:hover{
+    background-color: white;
+}
+
+/*PÁGINA*/
+.pagina{
+    margin: 30px;
+}
+
+/*INTRODUÇÃO*/
+.intro{
+    color:white;
+}
+
+/*IMAGENS*/
+.imagens{
+    width: 150px;
+    display: inline-block;
+    border: 2px solid rgba(255, 0, 234, 0.822);
+    border-radius: 10px;
+    margin: 10px;
+}
+  
+img{
+    width: 100%;
+    height: 200px;
+    transition: all 500ms;
+}
+
+.todasimagens > .imagens > img:hover{
+    transform: scale(0.9);
+    opacity: 0.5;
+
+}
+
+.imagens > span {
+    color: rgba(255, 0, 234, 0.822);
+    display: flex;
+    justify-content: center;
+}
+
+/*RODAPÉ*/
+footer{
+    color: darkgray;
+    text-align: center;
+}
